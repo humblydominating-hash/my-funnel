@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join the Exclusive VIP Hub</title>
+    <!-- Google Fonts for a premium look -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-green: #25D366;
+            --dark-bg: #0f0f0f;
+            --card-bg: #1a1a1a;
+            --text-main: #ffffff;
+            --text-dim: #a0a0a0;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--dark-bg);
+            color: var(--text-main);
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .funnel-card {
+            background-color: var(--card-bg);
+            width: 100%;
+            max-width: 400px;
+            padding: 40px 25px;
+            border-radius: 24px;
+            text-align: center;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+            border: 1px solid #333;
+        }
+
+        .icon-circle {
+            width: 70px;
+            height: 70px;
+            background: linear-gradient(135deg, #25D366, #128C7E);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto 25px;
+            font-size: 30px;
+            box-shadow: 0 0 20px rgba(37, 211, 102, 0.4);
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 12px;
+            font-weight: 700;
+        }
+
+        p {
+            font-size: 16px;
+            color: var(--text-dim);
+            line-height: 1.6;
+            margin-bottom: 35px;
+        }
+
+        .cta-button {
+            display: block;
+            background-color: var(--primary-green);
+            color: white;
+            text-decoration: none;
+            padding: 18px;
+            border-radius: 12px;
+            font-weight: 700;
+            font-size: 18px;
+            transition: transform 0.2s, background-color 0.2s;
+            box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+        }
+
+        .cta-button:hover {
+            background-color: #20ba5a;
+            transform: translateY(-3px);
+        }
+
+        .footer-note {
+            margin-top: 25px;
+            font-size: 12px;
+            color: #555;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* Fast pulse animation to draw the eye to the button */
+        @keyframes pulse {
+            0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7); }
+            70% { box-shadow: 0 0 0 15px rgba(37, 211, 102, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+        }
+        
+        .pulse-effect {
+            animation: pulse 2s infinite;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="funnel-card">
+        <div class="icon-circle">📲</div>
+        
+        <h1>Join the VIP Hub</h1>
+        
+        <p>Get instant access to daily stock updates, direct import price lists, and exclusive community deals before they hit the market.</p>
+
+        <!-- REPLACE URL BELOW WITH YOUR GROUP LINK -->
+        <a href="https://chat.whatsapp.com/KkaUq9gRCbWKAbJsXqmdQe" class="cta-button pulse-effect">
+            Enter WhatsApp Group
+        </a>
+
+        <div class="footer-note">
+            Secure • Exclusive • Verified
+        </div>
+    </div>
+
+</body>
+</html>
